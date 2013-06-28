@@ -19,6 +19,9 @@ app.use(stylus.middleware(
 	}
 ))
 app.get('/', function(req, res) {
-	res.end("testing")
+	res.send("testing")
 })
-app.listen(5000)
+app.listen(port, function() {
+	console.log("Listening on " + port);
+})
+

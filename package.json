@@ -3,8 +3,9 @@
 	"version": "0.0.1",
 	"dependencies": {
 		"express": "3.1.x",
-		"pg": "0.6.15",
-		"html": "latest"
+		"jade": "*",
+		"stylus": "*",
+		"nib": "*"
 
 	},
 	"engines":	{

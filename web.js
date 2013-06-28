@@ -19,7 +19,9 @@ app.use(stylus.middleware(
 	}
 ))
 app.get('/', function(req, res) {
-	res.send("testing")
+	res.render('index',
+	{title : 'Home' }
+)
 })
 
 var port = process.env.PORT || 5000;

@@ -5,7 +5,9 @@
 		"express": "3.1.x",
 		"jade": "*",
 		"stylus": "*",
-		"nib": "*"
+		"nib": "*",
+		"coffee-script": "*",
+		"pg":"*"
 
 	},
 	"engines":	{
